@@ -1,0 +1,12 @@
+<div class="input-container">
+  <input [(ngModel)]="inputText" name="inputText" placeholder="Enter name here" class="input-name">
+  <button (click)="getAgeByName()" class="btn-get-age">Get age</button>
+  <button (click)="getFrequencyByName()" class="btn-get-frequency">Get frequency</button>
+
+  <div class="the-oldest-person-container">
+    <p>And the oldest person is...</p>
+    <h1>{{old}}</h1>
+  </div>
+
+</div>
+
